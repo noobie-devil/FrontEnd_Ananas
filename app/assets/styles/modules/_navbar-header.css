@@ -7,13 +7,15 @@
 		right: 1rem;
 	}
 	&__group-menu{
+		position: relative;
+		top: 3px;
 
 		ul{
 			position: relative;
 			padding-right: 0;
 			padding-left: 0;
-			text-align: right;
-			right: 1.375rem;
+			text-align: center;
+			right: 1rem;
 		}
 
 		li:not(:last-child){
@@ -23,26 +25,18 @@
 		li:nth-child(7){
 			padding-right: 18px;
 		}
-		/*li{
-			padding-right: 12px;
-			
+
+		i{
+			font-size: 15px;
+			position: relative;
+			right: 0.175rem;
+			padding: 0 0.6rem;
 		}
-
 		
-
-
-		li:nth-child(7){
-			padding-right: 18px;
-		}*/
 	}
 
 
-	i{
-		font-size: 15px;
-		position: relative;
-		right: 0.175rem;
-		padding: 0 0.6rem;
-	}
+	
 
 	&__logo-brand{
 		position: relative;
@@ -50,10 +44,7 @@
 		left: 0.5rem;
 		bottom: 0.3rem;
 	}
-	&__group-menu{
-		position: relative;
-		top: 3px;
-	}
+	
 
 	.search-form{
 		top: 1.375rem;

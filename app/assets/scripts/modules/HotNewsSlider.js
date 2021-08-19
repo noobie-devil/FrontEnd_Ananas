@@ -9,7 +9,8 @@ class HotNewsSlider
 			let glide = new Glide(".hot-news-slider",{
 				type: "carousel",
 				perView: 1,
-				autoplay: 3000
+				autoplay: 3000,
+				animationDuration: 900,
 			})
 			glide.mount()
 		}

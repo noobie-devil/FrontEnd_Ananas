@@ -6,16 +6,26 @@
 		padding-top: 50px;
 	}
 
+
+	@mixin atMedium{
+		&--medium-2{
+			float: left;
+			width: 16.66%;
+		}
+
+		&--medium-8{
+			float: left;
+			width: 66.66%;
+		}
+	}
+
 	@mixin atLarge{
 		&--large-4{
 			float: left;
 			width: 33.33%;
 		}
 
-		&--large-2{
-			float: left;
-			width: 16.66%;
-		}
+		
 
 		&--large-5{
 			float: left;
@@ -27,9 +37,29 @@
 			width: 50%;
 		}
 
+
 		&--large-3{
 			float: left;
 			width: 25%;
 		}
+
+		&--large-7{
+			float: left;
+			width: 58.33%;
+		}
+		
+		&--large-2{
+			float: left;
+			width: 16.66%;
+		}
+
+		&--large-10{
+			float: left;
+			width: 83.33%;
+		}
 	}
+
+	
+
+	
 }
