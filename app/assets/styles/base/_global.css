@@ -1,0 +1,27 @@
+html{
+
+}
+
+body
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #000000;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: $mainOrange;
+}
+

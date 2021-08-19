@@ -1,0 +1,30 @@
+.site-header{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0.05rem;
+	display: block;
+	position: relative;
+	&__menu-features{
+		background-color: rgba(0,0,0,.82);
+		position: absolute;
+		z-index: 2;
+
+	}
+
+	/*&__menu-categories{
+		background-color: white;
+		position: absolute;
+		padding-left: 3.75rem;
+		text-align: left;
+		right: 0;
+	}*/
+	&__menu-categories{
+		background-color: white;
+		position: absolute;
+		text-align: right;
+		
+	}
+
+
+
+}

@@ -1,0 +1,56 @@
+.hot-news-slider
+{
+	& .glide{
+
+	}
+	&--large-m-t{
+		margin-top: 150px;
+		background-color: #F1F1F1;
+		
+
+
+	}
+	text-align: center;
+	
+	
+	
+	& .glide__arrow--left
+	{
+		height: 100%;
+		width: 33.33%;
+		z-index: 10;
+		background: #F1F1F1;
+		border-style: none;
+		left: 0;
+		box-shadow: none;
+		color: black;
+		
+		p{
+			float: right;
+			position: relative;
+			right: 25%;
+		}
+	}
+	& .glide__arrow--right{
+		height: 100%;
+		width: 33.33%;
+		z-index: 10;
+		background: #F1F1F1;
+		border-style: none;
+		right: 0;
+		box-shadow: none;
+		color: black;
+
+		p{
+			float: left;
+			position: relative;
+			left: 25%;
+		}
+	}
+
+	
+
+
+	
+
+}

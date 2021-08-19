@@ -1,0 +1,63 @@
+.navbar-header{
+
+	&--line{
+		border-right: #e3e2e2 2px solid;
+		height: 23px;
+		position: relative;
+		right: 1rem;
+	}
+	&__group-menu{
+
+		ul{
+			position: relative;
+			padding-right: 0;
+			padding-left: 0;
+			text-align: right;
+			right: 1.375rem;
+		}
+
+		li:not(:last-child){
+			padding-right: 10px;
+		}
+
+		li:nth-child(7){
+			padding-right: 18px;
+		}
+		/*li{
+			padding-right: 12px;
+			
+		}
+
+		
+
+
+		li:nth-child(7){
+			padding-right: 18px;
+		}*/
+	}
+
+
+	i{
+		font-size: 15px;
+		position: relative;
+		right: 0.175rem;
+		padding: 0 0.6rem;
+	}
+
+	&__logo-brand{
+		position: relative;
+		text-align: center;
+		left: 0.5rem;
+		bottom: 0.3rem;
+	}
+	&__group-menu{
+		position: relative;
+		top: 3px;
+	}
+
+	.search-form{
+		top: 1.375rem;
+	}
+	
+	
+}
