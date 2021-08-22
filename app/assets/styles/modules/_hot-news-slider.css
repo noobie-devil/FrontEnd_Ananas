@@ -1,7 +1,9 @@
 .hot-news-slider
 {
+	overflow: hidden;
 	& .glide{
 		height: 50px;
+		background-color: #F1F1F1;
 	}
 
 	&--p-y-0{
@@ -24,11 +26,7 @@
 		color: #000;
 	}
 
-	&--large-m-t{
-		margin-top: 150px;
-		background-color: #F1F1F1;
-		
-	}
+	
 	text-align: center;
 	
 	& .glide__track{

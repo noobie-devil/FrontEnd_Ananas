@@ -58,7 +58,6 @@
 	&__main{
 		li{
 			list-style: none;
-			display: inline-block;
 			font-family: 'Fira Sans', sans-serif;
 			font-weight: 600;
 			font-size: 1.4375rem;
@@ -68,10 +67,10 @@
 		a{
 			color: black;
 		}
-		ul{
+		/*ul{
 			text-align: center;
 			
-		}
+		}*/
 	}
 
 	a:hover{

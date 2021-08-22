@@ -1,0 +1,139 @@
+.dropdown-menu{
+	
+
+	&__list{
+		display: none;
+		justify-content: center ;
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+	}
+
+	&__col-style{
+		li{min-height: 375px !important;}
+
+		& .col-p-bottom{
+			padding-bottom: 2.240625rem;
+		}
+
+		
+
+		& .col-title{
+			a{
+				@mixin firaSans-Font !important;
+				font-size: 1.4375rem;
+				color: #fff;
+			}
+			
+		}
+
+		& .col-list{
+			width: 260px;
+			min-height: 375px;
+			margin: 40px 20px 40px 20px;
+		}
+
+		a{
+			color: #cccccc;
+			font-size: 0.875rem;
+			margin: 0px 0px 5px 0px;
+			padding: 0px;
+		}
+
+		& .mini-list{
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 2rem;
+			& .list-title{
+				font-weight: 800 !important;
+			}
+
+			a{
+				@mixin nunitoSans-Font;
+				color: #cccccc;
+				font-size: 1rem;
+				line-height: 20px;
+				font-weight: 400;
+			}
+		}
+	}
+
+	a{
+		font-family: 'Nunito Sans', sans-serif;
+	}
+
+	&--divide-line{
+		width: 2px;
+		border-right: #a5a5a5 2px dashed;
+		margin: 30px 80px 130px 0px;
+		min-height: 375px;
+	}
+
+	&__row-style{
+		
+		& .title
+		{
+			text-align: center;
+			@mixin firaSans-Font !important;
+			
+			font-weight: 600;
+			line-height: 2.0625rem;
+			color: white!important;
+			margin: 0px;
+			padding: 14px 0px 40px 0px;
+			height: auto;
+
+		}
+
+		
+
+		li{
+			width: 260px;
+			min-height: 375px;
+			margin: 30px 20px 0px 20px;
+			opacity: 0.5;
+			transition: opacity 0.25s ease-in;
+
+		}
+
+		li:hover{
+			opacity: 1;
+			transition: opacity 0.25s ease-in;
+		}
+
+
+
+		a{
+			display: block;
+			width: 100%;
+
+		}
+
+
+		img{
+			height:	100%;
+			width: 100%;
+
+		}
+	}
+
+
+	& .des{
+		margin-bottom: 40px;
+		width: 100%;
+		text-align: center;
+		a{
+			font-size: 1rem;
+			font-weight: 700;
+			color: #808080;
+			transform: skew(-3deg);
+		}
+		a:hover{
+			color: #808080;
+		}
+	}
+
+	& .highlight{
+		color: white;
+	}
+}

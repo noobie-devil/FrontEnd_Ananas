@@ -37,3 +37,11 @@
 	}
 }
 
+
+@define-mixin firaSans-Font $important{
+	font-family: 'Fira Sans', sans-serif $important;
+}
+
+@define-mixin nunitoSans-Font $important{
+	font-family: 'Nunito Sans', sans-serif $important;
+}

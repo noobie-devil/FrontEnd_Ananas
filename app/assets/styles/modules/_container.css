@@ -1,0 +1,58 @@
+.container{
+
+	position: relative;
+	top: 1rem;
+
+	&--d-flex{
+		display: flex;
+		justify-content: space-around;
+
+	}
+
+	&--p-t{
+		padding-top: 1.75rem;
+		padding-bottom: 1.75rem;
+		/*position: relative;
+		top: 1rem;*/
+	}
+
+	&__mini-flex-col{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+	&__item-flex-1{
+		flex: 1;
+	}
+
+	&__item-flex-85{
+		flex: 8.5;
+	}
+
+	&__item-flex-auto{
+		flex: auto;
+	}
+
+	/*&__list-item-flex{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		float: left;
+		padding-left: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		position: relative;
+
+
+		i{
+			font-size: 0.9375rem;
+			padding-left: 0.5rem ;
+			position: relative;
+		}
+
+		
+	}*/
+
+}

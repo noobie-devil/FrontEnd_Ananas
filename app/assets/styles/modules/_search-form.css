@@ -1,5 +1,42 @@
 .search-form{
 	position: relative;
+
+	&--text-input{
+		display: inline-block;
+
+		input {
+
+			height: 40px;
+			padding-left: 1.875rem;
+			font-size: 0.75rem;
+			border: 1px solid rgba(0, 0, 0, .2);
+			width: 220px;
+
+			@mixin atLarger{
+				width: 281px;
+			}
+		}
+
+		input:focus{
+			outline: none;
+			border: 1px solid rgba(0, 0, 255, .45);
+			box-shadow:  0 0 8px 2px rgba(173, 216, 230, 0.6);
+		}
+
+
+		
+	}
+
+	&--icon{
+		display: inline-block;
+		position: absolute;
+		i{
+			transform: translate(50%,50%);
+			color: rgba(0, 0, 0, .6);
+			font-size: 1.1rem;
+		}
+	}
+	/*position: relative;
 	
 	&--icon{
 		display: inline-block;
@@ -37,5 +74,5 @@
 
 
 		
-	}
+	}*/
 }

@@ -1,12 +1,118 @@
 .navbar-header{
 
-	&--line{
-		border-right: #e3e2e2 2px solid;
-		height: 23px;
-		position: relative;
-		right: 1rem;
+	&__dropdown-list{
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		background-color: #4c4c4c;
+		width: 100%;
+		left: 0;
+		z-index: 1001;
+		opacity: 0;
+		visibility: hidden;
+		transition: visibility 0s, opacity .3s ease-in;
+
 	}
+
+	& .show{
+		opacity: 1;
+		visibility: visible;
+		transition: visibility 0s, opacity .3s ease-in;
+	}
+
+
+	&--line{
+		border: #e3e2e2 1px solid;
+		height: 23px;
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
+
+	&__list-item{
+		
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		float: left;
+		padding-left: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		position: relative;
+		margin-top: 0;
+		height: 100%;
+
+		i{
+			font-size: 0.9375rem;
+			padding-left: 0.5rem ;
+			position: relative;
+		}
+
+		li{
+			padding-right: 1.2rem;
+			padding-left: 1.2rem;
+			margin-top: 2rem;
+			/*	margin-bottom: auto;*/
+
+		}
+
+		& .dropdown{
+			a{
+				position: relative;
+				height: 100%;
+				width: 100%;
+				display: block;
+			}
+			a:after{
+				content: "";
+				display: block;
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-width: 15px 15px;
+				border-style: solid;
+				border-color: transparent;
+				border-bottom-color: #4c4c4c;
+				right: 25px;
+				top: 33px;
+				opacity: 0;
+				visibility: hidden;
+				
+				
+			}
+		}
+
+		& .dropdown:hover{
+			a:after{
+				opacity: 1;
+				visibility: visible;
+				transition: visibility .3s, opacity .3s ease-in;
+				z-index: 1;
+			}
+			
+		}
+
+		li:first-child{
+			padding-left: 0;
+		}
+
+		li:last-child{
+			padding-right: 0;
+			margin-top: 0.8rem;
+		}
+	}
+
 	&__group-menu{
+		/*margin-top: auto;
+		margin-bottom: auto;*/
+		padding-right: 1.75rem;
+		padding-left: 1.75rem;
+		position: relative;
+		top: 1rem;
+
+	}
+	/*&__group-menu{
 		position: relative;
 		top: 3px;
 
@@ -33,22 +139,28 @@
 			padding: 0 0.6rem;
 		}
 		
+		}*/
+
+
+
+
+		&__logo-brand{
+			a{
+				/*position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+				float: left;*/
+				float: right;
+			}
+		}
+
+
+
+
+		&__search-form{
+			margin-bottom: auto;
+			margin-top: auto;
+			padding-left: 1rem;
+			padding-top: 20px;
+		}
 	}
-
-
-	
-
-	&__logo-brand{
-		position: relative;
-		text-align: center;
-		left: 0.5rem;
-		bottom: 0.3rem;
-	}
-	
-
-	.search-form{
-		top: 1.375rem;
-	}
-	
-	
-}

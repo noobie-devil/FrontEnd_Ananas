@@ -1,6 +1,12 @@
 .row{
 	@mixin clearfix;
 
+
+	/*&--d-flex{
+		display: flex;
+		justify-content: space-between;
+	}*/
+
 	&--t-padding
 	{
 		padding-top: 50px;
