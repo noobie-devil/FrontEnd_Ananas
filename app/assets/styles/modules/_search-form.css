@@ -1,6 +1,6 @@
 .search-form{
 	position: relative;
-
+	padding-right: 3.75rem;
 	&--text-input{
 		display: inline-block;
 

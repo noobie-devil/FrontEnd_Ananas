@@ -2,7 +2,7 @@
 	
 
 	&__list{
-		display: none;
+		display: flex;
 		justify-content: center ;
 		padding: 0;
 		margin: 0;
@@ -28,9 +28,13 @@
 		}
 
 		& .col-list{
-			width: 260px;
 			min-height: 375px;
 			margin: 40px 20px 40px 20px;
+			margin-right: 0;
+			margin-left: 0;
+			padding-left: 5rem;
+			padding-right: 5rem;
+			
 		}
 
 		a{
@@ -70,8 +74,51 @@
 	}
 
 	&__row-style{
-		
+		display: flex;
+		img{
+			height: 100%;
+			width: 100%;
+
+		}
+		li{
+
+			width: 260px;
+			min-height: 375px;
+			margin: 30px 20px 0px 20px;
+			padding: 0;
+
+			opacity: 0.5;
+			transition: opacity 0.25s ease-in;
+
+			a{
+				margin: 0;
+				padding: 0;
+				display: block;
+				width: 100%;
+			}
+
+		}
+
+		li:hover{
+			opacity: 1;
+			transition: opacity 0.25s ease-in;
+		}
+
 		& .title
+		{
+			text-align: center;
+			@mixin firaSans-Font !important;
+			
+			font-weight: 600;
+			line-height: 2.0625rem;
+			color: white!important;
+			margin: 0px;
+			padding: 14px 0px 40px 0px;
+			height: auto;
+
+		}
+
+		/*& .title
 		{
 			text-align: center;
 			@mixin firaSans-Font !important;
@@ -114,14 +161,30 @@
 			height:	100%;
 			width: 100%;
 
-		}
+		}*/
 	}
 
 
-	& .des{
+	/*& .des{
 		margin-bottom: 40px;
 		width: 100%;
 		text-align: center;
+		a{
+			font-size: 1rem;
+			font-weight: 700;
+			color: #808080;
+			transform: skew(-3deg);
+		}
+		a:hover{
+			color: #808080;
+		}
+	}*/
+
+	& .des{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 40px;
+
 		a{
 			font-size: 1rem;
 			font-weight: 700;

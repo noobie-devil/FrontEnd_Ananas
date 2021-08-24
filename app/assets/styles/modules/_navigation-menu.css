@@ -2,10 +2,11 @@
 	@mixin atMedium{
 
 	}
-	padding-left: 3.75rem;
-	padding-right: 3.75rem;
+	
 
 	&__features{
+		padding-right: 3.75rem;
+		padding-left: 3.75rem;
 		ul{
 			margin: -7px 0 7px 0;
 			text-align: right;
@@ -53,28 +54,28 @@
 		a{
 			color: black;
 		}
-	}*/
-	
-	&__main{
-		li{
-			list-style: none;
-			font-family: 'Fira Sans', sans-serif;
-			font-weight: 600;
-			font-size: 1.4375rem;
-			line-height: 1.25rem;
-		}
+		}*/
 
-		a{
-			color: black;
-		}
+		&__main{
+			li{
+				list-style: none;
+				font-family: 'Fira Sans', sans-serif;
+				font-weight: 600;
+				font-size: 1.4375rem;
+				line-height: 1.25rem;
+			}
+
+			a{
+				color: black;
+			}
 		/*ul{
 			text-align: center;
 			
-		}*/
-	}
+			}*/
+		}
 
-	a:hover{
-		color: $mainOrange;
-	}
+		a:hover{
+			color: $mainOrange;
+		}
 
-}
+	}
