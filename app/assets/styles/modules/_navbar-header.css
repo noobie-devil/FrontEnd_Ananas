@@ -1,7 +1,8 @@
 .navbar-header{
 
 	&__dropdown-list{
-		position: absolute;
+		/*position: absolute;*/
+		position: fixed;
 		padding: 0;
 		margin: 0;
 		background-color: #4c4c4c;
@@ -11,7 +12,8 @@
 		opacity: 0;
 		visibility: hidden;
 		transition: visibility .3s, opacity .3s ;
-		top: 6.375rem;
+		/*top: 6.375rem;*/
+		margin-top: 2.5rem;
 	}
 
 	/*& .show{
@@ -41,9 +43,8 @@
 		/*left: 50%;
 		transform: translateX(-50%);*/
 		position: relative;
-		/*margin-top: 0;*/
+		margin-top: 0;
 		height: 100%;
-		width: 100%;
 
 		i{
 			font-size: 0.9375rem;
@@ -76,7 +77,8 @@
 				border-color: transparent;
 				border-bottom-color: #4c4c4c;
 				right: 25px;
-				top: 42px;
+				top: 2rem;
+				/*top: 42px;*/
 				z-index: 1001;
 				transition: all 1s;
 				visibility: hidden;
@@ -120,10 +122,10 @@
 		padding-left: 1.75rem;
 		position: relative;
 		top: 1rem;*/
+		padding-right: 1.75rem;
+		padding-left: 1.75rem;
+		position: relative;
 		top: 1rem;
-		position: absolute;
-		width: 100%;
-		left: 0;
 
 	}
 	
@@ -138,6 +140,7 @@
 				float: left;*/
 				float: right;
 			}
+	
 		}
 
 
