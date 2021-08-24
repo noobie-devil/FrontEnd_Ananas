@@ -37,9 +37,9 @@
             <div class="container__mini-flex-col container__item-flex-85">
               <div class="navbar-header__group-menu container__item-flex-auto">
                 <ul class="navbar-header__list-item">
-                  <li class="dropdown" data-menu="#products"><a  href="">SẢN PHẨM<i class="caret fas fa-chevron-down"></i></a>
-                    <div class="navbar-header__dropdown-list dropdown-menu">
-                      <ul id="products" class="dropdown-menu__list dropdown-menu__row-style">
+                  <li class="dropdown-menu__link" data-menu="#products"><a href="">SẢN PHẨM<i class="caret fas fa-chevron-down"></i></a>
+                    <div id="products" class="navbar-header__dropdown-list dropdown-menu">
+                      <ul  class="dropdown-menu__list dropdown-menu__row-style">
                         <li>
                           <a href="">
                             <img src="assets/images/Menu_Nam.jpg" alt="">
@@ -75,9 +75,9 @@
                     </div>
                   </li>
                   <li class="navbar-header--line"></li>
-                  <li class="dropdown" data-menu="#male-products"><a href="">NAM<i class="caret fas fa-chevron-down"></i></a>
-                    <div class="navbar-header__dropdown-list dropdown-menu">
-                      <ul id="male-products" class="dropdown-menu__list dropdown-menu__col-style">
+                  <li class="dropdown-menu__link" data-menu="#male-products"><a href="">NAM<i class="caret fas fa-chevron-down"></i></a>
+                    <div id="male-products" class="navbar-header__dropdown-list dropdown-menu">
+                      <ul  class="dropdown-menu__list dropdown-menu__col-style">
                         <li class="col-list">
                           <div class="col-p-bottom col-title">
                             <a href="">NỔI BẬT</a>
@@ -159,7 +159,89 @@
                     </div>
                   </li>
                   <li class="navbar-header--line"></li>
-                  <li class="dropdown" data-menu="#female-products"><a href="">NỮ<i class="caret fas fa-chevron-down"></i></a></li>
+                  <li class="dropdown-menu__link" data-menu="#female-products"><a href="">NỮ<i class="caret fas fa-chevron-down"></i></a>
+                    <div id="female-products" class="navbar-header__dropdown-list dropdown-menu">
+                      <ul  class="dropdown-menu__list dropdown-menu__col-style">
+                        <li class="col-list">
+                          <div class="col-p-bottom col-title">
+                            <a href="">NỔI BẬT</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a  href="">Best Seller</a>
+                            <a href="">New Arrival</a>
+                            <a href="">Sale off</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a  class="list-title" href="">Bộ sưu tập</a>
+                            <a href="">Pineapple Or Ananas</a>
+                            <a href="">Corluray</a>
+                            <a href="">Unsettling</a>
+                            <a href="">Irrelevant</a>
+                            <a href="">Temperate</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a  class="list-title" href="">Collaboration</a>
+                            <a href="">Ananas x Lucky Luke</a>
+                            <a href="">Ananas x Doremon 50 Years</a>
+                          </div>
+
+                        </li>
+                        <li class="dropdown-menu--divide-line">
+
+                        </li>
+                        <li class="col-list">
+                          <div class="col-p-bottom col-title">
+                            <a href="">GIÀY</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a class="list-title" href="">Dòng sản phẩm</a>
+                            <a  href="">Basas</a>
+                            <a href="">Vintas</a>
+                            <a href="">Urbas</a>
+                            <a href="">Pattas</a>
+                            <a href="">Creas</a>
+                            <a href="">Track 6</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a class="list-title" href="">Style</a>
+                            <a  href="">High Top</a>
+                            <a href="">Low Top</a>
+                            <a href="">Slip-on</a>
+                          </div>
+                          <div class=" mini-list">
+                            <a class="list-title" href="">Tất cả giày</a>
+                          </div>
+
+                        </li>
+                        <li class="col-list"> 
+                          <div class="col-p-bottom col-title">
+                            <a href="">THỜI TRANG & PHỤ KIỆN</a>
+                          </div>
+                          <div class="mini-list">
+                            <a class="list-title" href="">Nửa trên</a>
+                            <a  href="">Basic Tee</a>
+                            <a href="">Graphic Tee</a>
+                            <a href="">Sweatshirt</a>
+                            <a href="">Hoodie</a>
+                          </div>
+                          <div class="mini-list">
+                            <a class="list-title" href="">Phụ kiện</a>
+                            <a  href="">Nón</a>
+                            <a href="">Dây giày</a>
+                            <a href="">Vớ</a>
+                            <a href="">Ba lô & Túi</a>
+                          </div>
+                          <div class="mini-list">
+                            <a class="list-title" href="">Xem tất cả</a>
+                          </div>
+
+                        </li>
+                        <div class="des">
+                          <a href="">MỌI NGƯỜI THƯỜNG GỌI CHÚNG TÔI LÀ <span class="highlight">DỨA</span> !</a>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
                   <li class="navbar-header--line"></li>
                   <li><a href="">SALE OFF</a></li>
                   <li class="navbar-header--line"></li>
@@ -294,19 +376,19 @@
             </ul>
           </div> -->
           
-          </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+  </div>
 
 
-  </header>
+</header>
 
-  <div class="hot-news-slider">
-    <div class="glide ">
-      <div class="glide__arrows" >
-        <button class="glide__arrow glide__arrow--left hot-news-slider--p-y-0" data-glide-el="controls"><p class="hot-news-slider__arrow-general" data-glide-dir="<"><</p></button>
-        
+<div class="hot-news-slider">
+  <div class="glide ">
+    <div class="glide__arrows" >
+      <button class="glide__arrow glide__arrow--left hot-news-slider--p-y-0" data-glide-el="controls"><p class="hot-news-slider__arrow-general" data-glide-dir="<"><</p></button>
+
         <button class="glide__arrow glide__arrow--right hot-news-slider--p-y-0" data-glide-el="controls"><p class="hot-news-slider__arrow-general" data-glide-dir=">">></p></button>
       </div>
       <div class="glide__track" data-glide-el="track">

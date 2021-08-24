@@ -34,13 +34,7 @@
 		flex: auto;
 	}
 
-	&--flex-wd-70{
-		flex-basis: 70%;
-	}
-
-	&--flex-h-87{
-		height: 87px;
-	}
+	
 
 	/*&__list-item-flex{
 		display: flex;

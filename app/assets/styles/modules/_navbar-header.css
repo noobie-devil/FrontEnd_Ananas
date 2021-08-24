@@ -8,10 +8,10 @@
 		background-color: #4c4c4c;
 		width: 100%;
 		left: 0;
-		z-index: 1001;
+		z-index: 9999;
 		opacity: 0;
 		visibility: hidden;
-		transition: visibility .3s, opacity .3s ;
+		transition: visibility 0s, opacity 0s ;
 		/*top: 6.375rem;*/
 		margin-top: 2.5rem;
 	}
@@ -61,7 +61,7 @@
 
 		}
 
-		& .dropdown{
+		/*& .dropdown{
 			i{
 				position: relative;
 			}
@@ -78,7 +78,7 @@
 				border-bottom-color: #4c4c4c;
 				right: 25px;
 				top: 2rem;
-				/*top: 42px;*/
+				
 				z-index: 1001;
 				transition: all 1s;
 				visibility: hidden;
@@ -86,9 +86,17 @@
 				transition: visibility .3s, opacity .3s ;
 			}
 			
-		}
 
-		& .dropdown:hover{
+			& .open{
+				i:after{
+					opacity: 1;
+					visibility: visible;
+				}
+
+			}
+		}*/
+
+		/*& .dropdown:hover{
 			i:after{
 				opacity: 1;
 				visibility: visible;
@@ -100,7 +108,7 @@
 				opacity: 1;
 				
 			}
-		}
+		}*/
 
 
 		li:first-child{
